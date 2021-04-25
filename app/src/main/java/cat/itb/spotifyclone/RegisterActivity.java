@@ -11,8 +11,6 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
@@ -34,7 +32,7 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         etPass = findViewById(R.id.etpass);
-        etEmail = findViewById(R.id.etloginUser);
+        etEmail = findViewById(R.id.etlSearch);
         etRepeatPassword = findViewById(R.id.etrepeatpass);
         etUsername = findViewById(R.id.etusername);
 

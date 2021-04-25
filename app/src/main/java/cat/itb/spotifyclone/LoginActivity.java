@@ -50,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
         loginbutton = findViewById(R.id.loginbutton);
         signUp = findViewById(R.id.registerText);
         etPass = findViewById(R.id.etpass);
-        etEmail = findViewById(R.id.etloginUser);
+        etEmail = findViewById(R.id.etlSearch);
         loginGoogle = findViewById(R.id.fbutton);
 
         session();

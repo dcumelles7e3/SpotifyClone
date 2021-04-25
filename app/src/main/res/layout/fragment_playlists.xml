@@ -23,7 +23,7 @@
             app:boxBackgroundColor="#7C7C7C"
             android:textColorHint="#000">
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etloginUser"
+                android:id="@+id/etlSearch"
                 android:inputType="textPersonName"
                 android:drawableLeft="@drawable/ic_action_search"
                 android:textColor="#000"

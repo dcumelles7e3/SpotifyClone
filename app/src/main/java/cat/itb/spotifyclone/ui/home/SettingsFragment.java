@@ -67,7 +67,7 @@ public class SettingsFragment extends Fragment {
                 Navigation.findNavController(v).popBackStack();
             }
         });
-
+/*
         String strProvider = FirebaseAuth.getInstance().
                 getAccessToken(false).getResult().getSignInProvider();
 
@@ -78,7 +78,7 @@ public class SettingsFragment extends Fragment {
         String usernamee = FirebaseAuth.getInstance().getCurrentUser().getDisplayName();
         username = v.findViewById(R.id.username);
         username.setText(usernamee);
-
+*/
         return v;
     }
 

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#191414"
+    android:id="@+id/fragmentsearch"
     tools:context=".ui.search.SearchFragment"
     >
 
@@ -39,7 +40,7 @@
                 app:boxBackgroundColor="#FFF"
                 android:textColorHint="#000">
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/etloginUser"
+                    android:id="@+id/etlSearch"
                     android:focusable="false"
                     android:inputType="textPersonName"
                     android:textColor="#000"

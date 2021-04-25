@@ -11,7 +11,6 @@ import androidx.lifecycle.ViewModelProviders;
 import androidx.navigation.Navigation;
 
 import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
 
 import cat.itb.spotifyclone.R;
 
@@ -25,7 +24,7 @@ public class SearchFragment extends Fragment {
         searchViewModel = ViewModelProviders.of(this).get(SearchViewModel.class);
         View v = inflater.inflate(R.layout.fragment_search, container, false);
 
-        searchIl = v.findViewById(R.id.etloginUser);
+        searchIl = v.findViewById(R.id.etlSearch);
         searchIl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
